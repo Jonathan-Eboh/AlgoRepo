@@ -79,8 +79,8 @@ LinkedList.prototype.search = function(searchValue) {
 //Index of method
 
 LinkedList.prototype.indexOf = function (value) {
-  let outPutArr = [];
-  let currentNode = this.head;
+  let outPutArr = []; //stores our list of indicies
+  let currentNode = this.head;//starts at first node then walks through LinkedList
   while (currentNode) {
     if(currentNode.value === value)
     outPutArr.push(currentNode.value);
