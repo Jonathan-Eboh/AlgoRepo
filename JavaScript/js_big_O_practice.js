@@ -44,6 +44,19 @@ function binarySearch(Arr, key) {
   let element;
 
   while (low <= high) {
+    mid = Math.floor((low + high) / 2, 10);
+    element = Arr[mid];
+    if (element < key) {
+      low = mid + 1;
+    }else if (element > key) {
+      high = mid - 1;
+    }else {
+      return mid;
+    }
 
   }
+  return -1;
 }
+//This function has a logarithmic runtime
+//this is due to the fact that with each operation we cut our input in half
+//Big O Notation: "O(log n)" 
