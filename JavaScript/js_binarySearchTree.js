@@ -19,7 +19,28 @@ BST.prototype.insert = function (value) {
     }
 };
 //___________________________________________________________
+//contains method
+BST.prototype.contains = function(value){
+    if (value === this.value) return true;
+    else if (value < this.value){//left case
+      if (!this.left) return false; //check if left node even exist
+      else return this.left.contains(value); //if it does exist then run our contains method on it
+    }
+    else if (value > this.value) {//right case
+      if(!this.right) return false; //checking to see if the right node exist
+      else return this.right.contains(value);// if it does then we run contains on it
+    }
 
+};
+//___________________________________________________________
+//depth first search traversal
+BST.prototype.depthFirstTraversal = function(iteratorFunc) {
+  //in order method______________________
+  if (this.left) this.left.depthFirstTraversal(iteratorFunc); //runs on every node in the left side of the tree
+  iteratorFunc(this.value); //this one runs when there is no left, the returns
+  if(this.right) this.right.depthFirstTraversal(iteratorFunc); //runs on every node in the right side of the tree
+
+};
 //___________________________________________________________
 
 
@@ -42,3 +63,15 @@ bst.insert(10);
 console.log(bst.right.left.left);
 console.log(bst.left.right.left);
 console.log(bst.right.right);
+console.log("__________________________testing contains method________________________________");
+
+console.log(bst.contains(10));
+console.log(bst.contains(15));
+
+console.log("__________________________testing depthFirstTraversal method________________________________");
+
+bst.depthFirstTraversal(log);
+
+function log(value){
+  console.log(value);
+}
