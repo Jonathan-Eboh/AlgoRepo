@@ -22,6 +22,7 @@ function factorial(num) {
       return num * factorial(num - 1); //this is where the recursion happens
   }
 }
-
+//Whenever working with recursion
+//always consider the current and overall state of the call stack
 
 console.log(factorial(4));

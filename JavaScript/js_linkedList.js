@@ -36,7 +36,7 @@ LinkedList.prototype.addToHead = function(value) {
 
 //Addind node to tail ****NOTE the logic for handeling all nodes correctly having the right 'next' and 'prev' pointer values is handled in add
 LinkedList.prototype.addToTail = function(value){
-  var newNode = new Node(value, null, this.tail); //our current tail will be pointed to by the node we are adding
+  let newNode = new Node(value, null, this.tail); //our current tail will be pointed to by the node we are adding
   if(this.tail) this.tail.next  = newNode;//the list is populated so the node we are adding is refereced by the tail of the previously last node
   else this.head = newNode; //list was empty so our node we are adding will be both the head and the tail
   this.tail = newNode;
@@ -102,7 +102,7 @@ ll.addToHead(300);
 
 console.log(ll);
 console.log("_______________________________________");
-var myLL = new LinkedList();
+let myLL = new LinkedList();
 
 myLL.addToTail(10);
 myLL.addToTail(20);

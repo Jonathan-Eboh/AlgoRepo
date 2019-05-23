@@ -23,8 +23,8 @@ logAll([1,2,3,4,5,6,7]);
 //Big O Notation: "O(n)"
 //___________________________________________________________
 function addAndLog(Arr) {
-  for (var i = 0; i < Arr.length; i++) {
-   for (var j = 0; j < Arr.length; j++) {
+  for (let i = 0; i < Arr.length; i++) {
+   for (let j = 0; j < Arr.length; j++) {
         console.log(Arr[i] + Arr[j]);
    }
   }
@@ -59,4 +59,4 @@ function binarySearch(Arr, key) {
 }
 //This function has a logarithmic runtime
 //this is due to the fact that with each operation we cut our input in half
-//Big O Notation: "O(log n)" 
+//Big O Notation: "O(log n)"
