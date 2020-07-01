@@ -1,0 +1,11 @@
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\bin\Debug\netcoreapp2.2\Arrays_one_dimension.deps.json
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\bin\Debug\netcoreapp2.2\Arrays_one_dimension.runtimeconfig.json
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\bin\Debug\netcoreapp2.2\Arrays_one_dimension.runtimeconfig.dev.json
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\bin\Debug\netcoreapp2.2\Arrays_one_dimension.dll
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\bin\Debug\netcoreapp2.2\Arrays_one_dimension.pdb
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\obj\Debug\netcoreapp2.2\Arrays_one_dimension.csprojAssemblyReference.cache
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\obj\Debug\netcoreapp2.2\Arrays_one_dimension.csproj.CoreCompileInputs.cache
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\obj\Debug\netcoreapp2.2\Arrays_one_dimension.AssemblyInfoInputs.cache
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\obj\Debug\netcoreapp2.2\Arrays_one_dimension.AssemblyInfo.cs
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\obj\Debug\netcoreapp2.2\Arrays_one_dimension.dll
+D:\AlgoRepo_local\AlgoRepo\C#\Algorithms_Practice\Arrays_and_Strings\Arrays_one_dimension\Arrays_one_dimension\obj\Debug\netcoreapp2.2\Arrays_one_dimension.pdb
